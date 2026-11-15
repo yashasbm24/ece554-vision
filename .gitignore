@@ -1,0 +1,35 @@
+# Python environments and caches
+/ece554/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local data, model weights, and generated results
+/downloads/
+/inputs/
+/models/
+/outputs/
+/runs/
+/datasets/*
+!/datasets/coco/
+!/datasets/coco2017-val-subset/
+/datasets/coco/*
+!/datasets/coco/data.yaml
+/datasets/coco2017-val-subset/*
+!/datasets/coco2017-val-subset/data.yaml
+!/datasets/coco2017-val-subset/README.md
+*.pt
+*.onnx
+*.cache
+
+# Local secrets and operating-system files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
